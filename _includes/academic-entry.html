@@ -1,4 +1,4 @@
-<article class="archive__item">
+<article class="archive__item{% if entry.collection == 'publications' %} publication-entry{% endif %}">
   {% if include.compact %}
     <h3 class="archive__item-title">{% if entry.collection == "talks" %}{{ entry.title | escape }}{% else %}<a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a>{% endif %}</h3>
   {% else %}
