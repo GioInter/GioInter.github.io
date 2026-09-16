@@ -4,6 +4,9 @@ title: "The Theta Conjecture"
 category: "preprints"
 arxiv: ""
 authors: "Giovanni Interdonato and Alessandro Iraci"
+coauthors:
+  - name: "Alessandro Iraci"
+    url: "https://sites.google.com/view/iraci"
 details: "Preprint"
 period: "September 2026"
 sort_order: 202609
@@ -12,7 +15,7 @@ permalink: /publications/theta-conjecture/
 author_profile: true
 ---
 
-**Giovanni Interdonato and Alessandro Iraci**
+<p>{% include coauthors.html coauthors=page.coauthors %}</p>
 
 *Preprint · September 2026*
 

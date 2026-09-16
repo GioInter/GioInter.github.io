@@ -4,7 +4,7 @@
   {% else %}
     <h2 class="archive__item-title">{% if entry.collection == "talks" %}{{ entry.title | escape }}{% else %}<a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a>{% endif %}</h2>
   {% endif %}
-  {% if entry.authors %}<p>{{ entry.authors | escape }}</p>{% endif %}
+  {% if entry.coauthors %}<p>{% include coauthors.html coauthors=entry.coauthors %}</p>{% elsif entry.authors %}<p>{{ entry.authors | escape }}</p>{% endif %}
   <p>{% if entry.event_url and entry.event_name %}<a href="{{ entry.event_url | escape }}">{{ entry.event_name | escape }}</a>{% if entry.venue %} · {{ entry.venue | escape }}{% endif %}{% else %}{{ entry.details | escape }}{% endif %}{% if entry.period %} · {{ entry.period | escape }}{% endif %}</p>
   {% unless include.compact %}
     {% if entry.summary %}<p>{{ entry.summary | escape }}</p>{% endif %}

@@ -3,6 +3,13 @@ layout: archive
 title: "Leaving the Hall: explicit formulas for Neguț operators"
 category: "preprints"
 authors: "Michele D'Adderio, Giovanni Interdonato, Alessandro Iraci and Roberto Pagaria"
+coauthors:
+  - name: "Michele D'Adderio"
+    url: "https://people.dm.unipi.it/dadderio/"
+  - name: "Alessandro Iraci"
+    url: "https://sites.google.com/view/iraci"
+  - name: "Roberto Pagaria"
+    url: "https://www.dm.unibo.it/~roberto.pagaria/"
 details: "Preprint · arXiv:2608.14836"
 period: "August 2026"
 sort_order: 202608
@@ -13,7 +20,7 @@ permalink: /publications/leaving-the-hall/
 author_profile: true
 ---
 
-**Michele D'Adderio, Giovanni Interdonato, Alessandro Iraci and Roberto Pagaria**
+<p>{% include coauthors.html coauthors=page.coauthors %}</p>
 
 *Preprint · arXiv:2608.14836 · August 2026*
 

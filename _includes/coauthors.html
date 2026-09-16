@@ -1,0 +1,1 @@
+with {% for coauthor in include.coauthors %}<a href="{{ coauthor.url | escape }}">{{ coauthor.name | escape }}</a>{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}

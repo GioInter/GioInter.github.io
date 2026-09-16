@@ -3,6 +3,9 @@ layout: archive
 title: "Generalizing Eulerian Numbers via Semipermutations: Topological and Combinatorial Aspects"
 category: "manuscripts"
 authors: "Giovanni Gaiffi and Giovanni Interdonato"
+coauthors:
+  - name: "Giovanni Gaiffi"
+    url: "https://people.dm.unipi.it/gaiffi/"
 details: "Note di Matematica 46 (1), 19–40"
 period: "2026"
 sort_order: 202607
@@ -14,7 +17,7 @@ permalink: /publications/eulerian-numbers-semipermutations/
 author_profile: true
 ---
 
-**Giovanni Gaiffi and Giovanni Interdonato**
+<p>{% include coauthors.html coauthors=page.coauthors %}</p>
 
 *Note di Matematica 46 (1), 19–40 · 2026*
 
