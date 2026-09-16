@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm Giovanni, a PhD student in Mathematics at the Scuola Normale Superiore, Pisa, under the supervision of [Michele D'Adderio](https://people.dm.unipi.it/dadderio/).
 
-My research is in algebraic combinatorics, with a focus on symmetric functions, Macdonald polynomials, Theta operators, lattice paths and combinatorics of the Coxeter groups.
+My research focuses on algebraic combinatorics, with a focus on symmetric functions, Macdonald polynomials, Theta operators, chromatic functions, and the combinatorics of Coxeter groups.
 
 I'm a member of a [CULT](https://cult.dm.unipi.it/).
 
