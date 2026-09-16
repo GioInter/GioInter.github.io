@@ -24,6 +24,7 @@ repository               : "GioInter/GioInter.github.io"
 author:
   # Biographic information
   avatar           : "foto_day.jpg"
+  avatar_dark      : "foto_night.jpg"
   name             : "Giovanni Interdonato"
   pronouns         : "he/him"  
   bio              : "PhD student in Mathematics. Algebraic combinatorics."
@@ -164,6 +165,8 @@ include:
   - _pages
   - files
 exclude:
+  - "_pages/teaching.html"
+  - "_teaching"
   - "_publications/2009-10-01-paper-title-number-1.md"
   - "_publications/2010-10-01-paper-title-number-2.md"
   - "_publications/2015-10-01-paper-title-number-3.md"

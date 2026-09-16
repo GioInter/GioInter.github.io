@@ -1,15 +1,15 @@
 <article class="archive__item">
   {% if include.compact %}
-    <h3 class="archive__item-title"><a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></h3>
+    <h3 class="archive__item-title">{% if entry.collection == "talks" %}{{ entry.title | escape }}{% else %}<a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a>{% endif %}</h3>
   {% else %}
-    <h2 class="archive__item-title"><a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></h2>
+    <h2 class="archive__item-title">{% if entry.collection == "talks" %}{{ entry.title | escape }}{% else %}<a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a>{% endif %}</h2>
   {% endif %}
   {% if entry.authors %}<p>{{ entry.authors | escape }}</p>{% endif %}
   <p>{{ entry.details | escape }}{% if entry.period %} · {{ entry.period | escape }}{% endif %}</p>
   {% unless include.compact %}
     {% if entry.summary %}<p>{{ entry.summary | escape }}</p>{% endif %}
   {% endunless %}
-  {% if entry.arxiv %}
+  {% if entry.arxiv and entry.arxiv != "" %}
     <p><a href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv:{{ entry.arxiv }}</a> · <a href="https://arxiv.org/pdf/{{ entry.arxiv }}">PDF</a>{% if entry.journal_url %} · <a href="{{ entry.journal_url }}">Journal issue</a>{% endif %}</p>
   {% endif %}
 </article>

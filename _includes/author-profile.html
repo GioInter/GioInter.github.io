@@ -6,11 +6,20 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
+  <div class="author__avatar{% if author.avatar_dark %} author__avatar--themed{% endif %}">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+      {% assign avatar_light_url = author.avatar %}
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+      {% assign avatar_light_url = author.avatar | prepend: "/images/" | prepend: base_path %}
+    {% endif %}
+    <img src="{{ avatar_light_url }}" class="author__avatar author__avatar--light" alt="{{ author.name | escape }}" fetchpriority="high" />
+    {% if author.avatar_dark %}
+      {% if author.avatar_dark contains "://" %}
+        {% assign avatar_dark_url = author.avatar_dark %}
+      {% else %}
+        {% assign avatar_dark_url = author.avatar_dark | prepend: "/images/" | prepend: base_path %}
+      {% endif %}
+      <img src="{{ avatar_dark_url }}" class="author__avatar author__avatar--dark" alt="{{ author.name | escape }}" />
     {% endif %}
   </div>
 

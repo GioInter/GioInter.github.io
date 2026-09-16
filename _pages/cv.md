@@ -46,13 +46,6 @@ Thesis: *Littlewood–Richardson rule*.
   {% include academic-entry.html compact=true %}
 {% endfor %}
 
-## Teaching
-
-{% assign teaching = site.teaching | sort: "sort_order" | reverse %}
-{% for entry in teaching %}
-  {% include academic-entry.html compact=true %}
-{% endfor %}
-
 ## Professional experience
 
 **2021–2022 — Revision of the Italian translation of Gauss's *Disquisitiones Arithmeticae***  

@@ -322,3 +322,18 @@
     }
   }
 }
+
+/* Match the portrait to the site's active theme, including manual toggles. */
+.author__avatar--themed img.author__avatar--dark {
+  display: none;
+}
+
+html[data-theme="dark"] .author__avatar--themed {
+  img.author__avatar--light {
+    display: none;
+  }
+
+  img.author__avatar--dark {
+    display: block;
+  }
+}
