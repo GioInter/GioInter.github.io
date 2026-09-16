@@ -331,8 +331,6 @@
 /* Match the portrait to the site's active theme, including manual toggles. */
 .author__avatar--themed img.author__avatar--dark {
   display: none;
-  // Frame the face in the upper part of the original portrait.
-  object-position: 50% 15%;
 }
 
 html[data-theme="dark"] .author__avatar--themed {
