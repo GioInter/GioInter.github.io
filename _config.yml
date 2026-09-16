@@ -23,7 +23,7 @@ repository               : "GioInter/GioInter.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "foto_day.jpg"
   name             : "Giovanni Interdonato"
   pronouns         : "he/him"  
   bio              : "PhD student in Math at Scuola Normale Superiore."
