@@ -50,7 +50,7 @@ Thesis: *Littlewood–Richardson rule*.
 
 ## Professional experience
 
-**2021–2022 — Revision of the Italian translation of Gauss's *Disquisitiones Arithmeticae***  
+**2021–2022 — Revision of the Italian translation of Gauss's [*Disquisitiones Arithmeticae*](https://edizioni.sns.it/prodotto/ricerche-aritmetiche/)**  
 Revision of the Italian translation edited by S. Graffi and C. Larese, published by Edizioni della Normale, Pisa.
 
 ## Computer skills
