@@ -1,9 +1,10 @@
 ---
 layout: archive
 title: "The Theta Conjecture"
-category: "forthcoming"
+category: "preprints"
+arxiv: ""
 authors: "Giovanni Interdonato and Alessandro Iraci"
-details: "Forthcoming manuscript"
+details: "Preprint"
 period: "September 2026"
 sort_order: 202609
 collection: publications
@@ -13,6 +14,6 @@ author_profile: true
 
 **Giovanni Interdonato and Alessandro Iraci**
 
-*Forthcoming manuscript · September 2026*
+*Preprint · September 2026*
 
-Joint work with Alessandro Iraci. Forthcoming; an arXiv link will be added when available.
+Joint work with Alessandro Iraci. An arXiv link will be added when available.
