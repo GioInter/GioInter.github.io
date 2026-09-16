@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Giovanni Interdonato"
 title_separator          : "-"
 name                     : &name "Giovanni Interdonato"
-description              : &description "Giovanni Interdonato's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Giovanni Interdonato — PhD student in Mathematics at Scuola Normale Superiore, working in algebraic combinatorics."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://GioInter.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "foto_day.jpg"
   name             : "Giovanni Interdonato"
   pronouns         : "he/him"  
-  bio              : "PhD student in Math at Scuola Normale Superiore."
+  bio              : "PhD student in Mathematics. Algebraic combinatorics."
   location         : "Pisa, Italy"
   employer         : "Scuola Normale Superiore"
   uri              : "https://GioInter.github.io"
@@ -34,7 +34,7 @@ author:
 
   # Academic websites
   academia         : # URL
-  arxiv            : "http://arxiv.org/a/interdonato_g_2"
+  arxiv            : "https://arxiv.org/a/interdonato_g_2"
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
@@ -84,12 +84,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Journal articles'
+  preprints:
+    title: 'Preprints'
+  forthcoming:
+    title: 'Forthcoming'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -125,7 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # no blog posts are currently published
   path                   : # blank (default) uses feed.xml
 
 
@@ -166,6 +166,36 @@ include:
   - _pages
   - files
 exclude:
+  - "_publications/2009-10-01-paper-title-number-1.md"
+  - "_publications/2010-10-01-paper-title-number-2.md"
+  - "_publications/2015-10-01-paper-title-number-3.md"
+  - "_publications/2024-02-17-paper-title-number-4.md"
+  - "_publications/2025-06-08-paper-title-number-5.md"
+  - "_talks/2012-03-01-talk-1.md"
+  - "_talks/2013-03-01-tutorial-1.md"
+  - "_talks/2014-02-01-talk-2.md"
+  - "_talks/2014-03-01-talk-3.md"
+  - "_teaching/2014-spring-teaching-1.md"
+  - "_teaching/2015-spring-teaching-2.md"
+  - "_posts"
+  - "_portfolio"
+  - "_pages/cv-json.md"
+  - "_pages/markdown.md"
+  - "_pages/archive-layout-with-content.md"
+  - "_pages/non-menu-page.md"
+  - "_pages/portfolio.html"
+  - "_pages/talkmap.html"
+  - "_pages/terms.md"
+  - "_pages/year-archive.html"
+  - "_pages/category-archive.html"
+  - "_pages/tag-archive.html"
+  - "talkmap"
+  - "talkmap.py"
+  - "talkmap.ipynb"
+  - "talkmap_out.ipynb"
+  - "markdown_generator"
+  - "scripts"
+  - "AGENTS.md"
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

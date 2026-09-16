@@ -1,64 +1,70 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+  - /cv-json/
+  - /resume-json
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**2023–present — PhD in Mathematics**  
+Scuola Normale Superiore, Pisa.  
+Advisor: Michele D'Adderio.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**2018–2024 — Corso Ordinario, Faculty of Sciences (Mathematics)**  
+Scuola Normale Superiore, Pisa.  
+Final grade: 100/100 cum laude.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**2021–2023 — Master's degree in Mathematics**  
+Università di Pisa. Final grade: 110/110 cum laude.  
+Advisor: Michele D'Adderio.  
+Thesis: *A generalisation of the Shuffle Theorem*.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**2021–2023 — Erasmus**  
+Université Paris-Saclay.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**2018–2021 — Bachelor's degree in Mathematics**  
+Università di Pisa. Final grade: 110/110 cum laude.  
+Advisor: Giovanni Gaiffi.  
+Thesis: *Littlewood–Richardson rule*.
+
+## Publications and preprints
+
+{% assign publications = site.publications | sort: "sort_order" | reverse %}
+{% for entry in publications %}
+  {% include academic-entry.html compact=true %}
+{% endfor %}
+
+## Talks
+
+{% assign talks = site.talks | sort: "sort_order" | reverse %}
+{% for entry in talks %}
+  {% include academic-entry.html compact=true %}
+{% endfor %}
+
+## Teaching
+
+{% assign teaching = site.teaching | sort: "sort_order" | reverse %}
+{% for entry in teaching %}
+  {% include academic-entry.html compact=true %}
+{% endfor %}
+
+## Professional experience
+
+**2021–2022 — Revision of the Italian translation of Gauss's *Disquisitiones Arithmeticae***  
+Revision of the Italian translation edited by S. Graffi and C. Larese, published by Edizioni della Normale, Pisa.
+
+## Computer skills
+
+- **Good:** Python, C, SageMath.
+- **Basic:** LaTeX.
+
+## Languages
+
+- **Native:** Italian and Sicilian.
+- **Advanced:** English.
+- **Basic:** French.
