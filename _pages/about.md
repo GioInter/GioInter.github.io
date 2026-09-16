@@ -9,13 +9,8 @@ redirect_from:
 
 Hi! I'm Giovanni, a PhD student in Mathematics at the Scuola Normale Superiore, Pisa, under the supervision of [Michele D'Adderio](https://people.dm.unipi.it/dadderio/).
 
-My research is in algebraic combinatorics, with a focus on symmetric functions, Macdonald polynomials, Theta operators, lattice paths and combinatorics of the Coxeter groups. My recent work concerns Neguț and Theta operators, as well as Eulerian numbers and semipermutations.
+My research is in algebraic combinatorics, with a focus on symmetric functions, Macdonald polynomials, Theta operators, lattice paths and combinatorics of the Coxeter groups.
 
-I obtained my Master's degree in Mathematics at the Università di Pisa in 2023, with a thesis entitled *A generalisation of the Shuffle Theorem*, supervised by Michele D'Adderio. Previously, I completed my Bachelor's degree at the same university, working with Giovanni Gaiffi on the *Littlewood–Richardson rule*. Alongside my university studies, I attended the Corso Ordinario in Mathematics at the Scuola Normale Superiore (2018–2024).
-
-## Research
-
-- **Symmetric functions and operators:** explicit formulas for Neguț operators and their connections with Theta operators and the Dyck path algebra.
-- **Combinatorics and geometry:** permutation statistics, generalizations of Eulerian numbers, and the topology of Hessenberg-type varieties.
+I obtained my Master's degree in Mathematics at the Università di Pisa in 2023, supervised by Michele D'Adderio. Previously, I completed my Bachelor's degree at the same university, working with Giovanni Gaiffi on the *Littlewood–Richardson rule*. Alongside my university studies, I attended the Corso Ordinario in Mathematics at the Scuola Normale Superiore (2018–2024).
 
 See my [publications and preprints]({{ '/publications/' | relative_url }}) and [CV]({{ '/cv/' | relative_url }}) for further details.
