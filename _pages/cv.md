@@ -9,6 +9,8 @@ redirect_from:
   - /resume-json
 ---
 
+<p><a href="{{ '/files/CV_26_09.pdf' | relative_url }}" class="btn btn--primary" target="_blank" rel="noopener">CV (PDF)</a></p>
+
 ## Education
 
 **2023–present — PhD in Mathematics**  
