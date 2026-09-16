@@ -10,6 +10,6 @@
     {% if entry.summary %}<p>{{ entry.summary | escape }}</p>{% endif %}
   {% endunless %}
   {% if entry.arxiv and entry.arxiv != "" %}
-    <p><a href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv:{{ entry.arxiv }}</a> · <a href="https://arxiv.org/pdf/{{ entry.arxiv }}">PDF</a>{% if entry.journal_url %} · <a href="{{ entry.journal_url }}">Journal issue</a>{% endif %}</p>
+    <p><a href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv:{{ entry.arxiv }}</a> · <a href="https://arxiv.org/pdf/{{ entry.arxiv }}">PDF</a>{% if entry.journal_url %} · <a href="{{ entry.journal_url }}">Journal article</a>{% endif %}</p>
   {% endif %}
 </article>
