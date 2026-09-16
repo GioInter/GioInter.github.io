@@ -5,8 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p>You can also find my work on <a href="{{ site.author.arxiv }}">arXiv</a> and <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
-
 {% assign publications = site.publications | sort: "sort_order" | reverse %}
 {% for category in site.publication_category %}
   {% assign entries = publications | where: "category", category[0] %}
