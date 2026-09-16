@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Mathematics at the **Scuola Normale Superiore**, Pisa, where I have been working under the supervision of **Michele D'Adderio** since 2023.
+Hi! I'm Giovanni, a PhD student in Mathematics at the Scuola Normale Superiore, Pisa, under the supervision of [Michele D'Adderio]([https://indirizzo-del-sito](https://people.dm.unipi.it/dadderio/)).
 
-My research is in **algebraic combinatorics**, with a focus on symmetric functions, shuffle-type theorems, and the interplay between combinatorics and geometry. My recent work concerns Neguț and Theta operators, as well as Eulerian numbers and semipermutations.
+My research is in algebraic combinatorics, with a focus on symmetric functions, Macdonald polynomials, Theta operators, lattice paths and combinatorics of the Coxeter groups. My recent work concerns Neguț and Theta operators, as well as Eulerian numbers and semipermutations.
 
 I obtained my Master's degree in Mathematics at the Università di Pisa in 2023, with a thesis entitled *A generalisation of the Shuffle Theorem*, supervised by Michele D'Adderio. Previously, I completed my Bachelor's degree at the same university, working with Giovanni Gaiffi on the *Littlewood–Richardson rule*. Alongside my university studies, I attended the Corso Ordinario in Mathematics at the Scuola Normale Superiore (2018–2024).
 
@@ -19,10 +19,3 @@ I obtained my Master's degree in Mathematics at the Università di Pisa in 2023,
 - **Combinatorics and geometry:** permutation statistics, generalizations of Eulerian numbers, and the topology of Hessenberg-type varieties.
 
 See my [publications and preprints]({{ '/publications/' | relative_url }}) and [CV]({{ '/cv/' | relative_url }}) for further details.
-
-## Contact
-
-Scuola Normale Superiore, Pisa, Italy  
-[giovanni.interdonato@sns.it](mailto:giovanni.interdonato@sns.it)
-
-[arXiv]({{ site.author.arxiv }}) · [Google Scholar]({{ site.author.googlescholar }}) · [ORCID]({{ site.author.orcid }})
