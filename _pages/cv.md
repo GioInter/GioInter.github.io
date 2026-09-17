@@ -34,6 +34,16 @@ Università di Pisa. Final grade: 110/110 cum laude.
 Advisor: Giovanni Gaiffi.  
 Thesis: *Littlewood–Richardson rule*.
 
+## Research visits
+
+**September–October 2025 — Research visit**  
+Université du Québec à Montréal, Montréal, Canada.  
+Hosted by [Prof. Christophe Hohlweg](https://hohlweg.math.uqam.ca/).
+
+**February–March 2027 — Research visit**  
+University of Galway, Galway, Ireland.  
+Hosted by [Prof. Angela Carnevale](https://angelacarnevale.github.io/).
+
 ## Publications and preprints
 
 {% assign publications = site.publications | sort: "sort_order" | reverse %}
