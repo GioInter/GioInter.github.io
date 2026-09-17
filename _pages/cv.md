@@ -15,7 +15,7 @@ redirect_from:
 
 **2023–present — PhD in Mathematics**  
 Scuola Normale Superiore, Pisa.  
-Advisor: Michele D'Adderio.
+Advisor: [Michele D'Adderio](https://people.dm.unipi.it/dadderio/).
 
 **2018–2024 — Corso Ordinario, Faculty of Sciences (Mathematics)**  
 Scuola Normale Superiore, Pisa.  
@@ -23,7 +23,7 @@ Final grade: 100/100 cum laude.
 
 **2021–2023 — Master's degree in Mathematics**  
 Università di Pisa. Final grade: 110/110 cum laude.  
-Advisor: Michele D'Adderio.  
+Advisor: [Michele D'Adderio](https://people.dm.unipi.it/dadderio/).  
 Thesis: *A generalisation of the Shuffle Theorem*.
 
 **2021–2023 — Erasmus**  
@@ -31,18 +31,18 @@ Université Paris-Saclay.
 
 **2018–2021 — Bachelor's degree in Mathematics**  
 Università di Pisa. Final grade: 110/110 cum laude.  
-Advisor: Giovanni Gaiffi.  
+Advisor: [Giovanni Gaiffi](https://people.dm.unipi.it/gaiffi/).  
 Thesis: *Littlewood–Richardson rule*.
 
 ## Research visits
 
-**September–October 2025 — Research visit**  
+**09–10/2025 — Research visit**  
 Université du Québec à Montréal, Montréal, Canada.  
-Hosted by [Prof. Christophe Hohlweg](https://hohlweg.math.uqam.ca/).
+Hosted by [Christophe Hohlweg](https://hohlweg.math.uqam.ca/).
 
-**February–March 2027 — Research visit**  
+**02–03/2027 — Research visit**  
 University of Galway, Galway, Ireland.  
-Hosted by [Prof. Angela Carnevale](https://angelacarnevale.github.io/).
+Hosted by [Angela Carnevale](https://angelacarnevale.github.io/).
 
 ## Publications and preprints
 
@@ -66,7 +66,7 @@ Revision of the Italian translation edited by S. Graffi and C. Larese, published
 ## Computer skills
 
 - **Good:** Python, C, SageMath.
-- **Basic:** LaTeX.
+- **Basic:** \(\LaTeX\).
 
 ## Languages
 
