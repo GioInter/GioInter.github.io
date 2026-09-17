@@ -40,7 +40,7 @@ Thesis: *Littlewood–Richardson rule*.
 Université du Québec à Montréal, Montréal, Canada.  
 Hosted by [Christophe Hohlweg](https://hohlweg.math.uqam.ca/).
 
-**02–03/2027 — Research visit**  
+**02–03/2026 — Research visit**  
 University of Galway, Galway, Ireland.  
 Hosted by [Angela Carnevale](https://angelacarnevale.github.io/).
 
