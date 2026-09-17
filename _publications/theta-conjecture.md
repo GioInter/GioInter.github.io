@@ -7,7 +7,7 @@ authors: "Giovanni Interdonato and Alessandro Iraci"
 coauthors:
   - name: "Alessandro Iraci"
     url: "https://sites.google.com/view/iraci"
-details: "Preprint"
+details: "Preprint · arXiv:2609.17744"
 period: "September 2026"
 sort_order: 202609
 arxiv: "2609.17744"
