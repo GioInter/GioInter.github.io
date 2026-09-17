@@ -66,7 +66,7 @@ Revision of the Italian translation edited by S. Graffi and C. Larese, published
 ## Computer skills
 
 - **Good:** Python, C, SageMath.
-- **Basic:** \\(\\text{\LaTeX a}\\).
+- **Basic:** \\(\\mathrm{\LaTeX}\\).
 
 ## Languages
 
