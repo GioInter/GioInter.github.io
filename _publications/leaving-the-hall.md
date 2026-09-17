@@ -30,7 +30,7 @@ author_profile: true
 
 <p>The first main contribution of this paper is a simple, explicit formula inside the algebra \(\mathbb{A}_{q,t}\) for the Neguț operators, yielding a direct, elementary connection between the original operators of the rational shuffle conjecture and the corresponding Catalanimals. Our formula bypasses the elliptic Hall algebra, turning these operators into transparent, workable tools whose action we can compute exactly and efficiently on any symmetric function, not just constants.</p>
 
-<p>Our second main contribution consists of a series of explicit formulas relating the Neguț operators to the Theta operators introduced by D'Adderio et al. To prove these formulas, we provide an extension of the aforementioned Theta operators to the entire algebra \(\mathbb{A}_{q,t}\), allowing us to obtain a series of new combinatorial results. The algebraic computations underlying this extension have been formalized in Lean.</p>
+<p>Our second main contribution consists of a series of explicit formulas relating the Neguț operators to the Theta operators introduced by D'Adderio et al. To prove these formulas, we provide an extension of the aforementioned Theta operators to the entire algebra \(\mathbb{A}_{q,t}\), allowing us to obtain a series of new combinatorial results. The algebraic computations underlying this extension have been formalized in Lean. \LaTeX</p>
 
 <p>To showcase the power of our results, we give a proof, also partially formalized in Lean, of the Theta conjecture of D'Adderio et al., first stated in 2019.</p>
 </div>
