@@ -10,6 +10,7 @@ coauthors:
 details: "Preprint"
 period: "September 2026"
 sort_order: 202609
+arxiv: "2609.17744"
 collection: publications
 permalink: /publications/theta-conjecture/
 author_profile: true
@@ -17,7 +18,7 @@ author_profile: true
 
 <p>{% include coauthors.html coauthors=page.coauthors %}</p>
 
-*Preprint · September 2026*
+*Preprint · arXiv:2609.17744 · September 2026*
 
 ## Abstract
 
@@ -29,4 +30,4 @@ author_profile: true
 <p>In support of the Theta conjecture and its touching refinement, we prove its Schröder case, that is, the scalar product of the symmetric function side with \(e_{n-d} h_d\) matches the combinatorial side restricted to Schröder paths. The proof uses a finer combinatorial argument than the previously known cases, leveraging two Gaussian product identities.</p>
 </div>
 
-An arXiv link will be added when available.
+[arXiv:2609.17744](https://arxiv.org/abs/2609.17744) · [PDF](https://arxiv.org/pdf/2609.17744)
