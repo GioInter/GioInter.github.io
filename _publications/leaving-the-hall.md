@@ -14,7 +14,6 @@ details: "Preprint · arXiv:2608.14836"
 period: "August 2026"
 sort_order: 202608
 arxiv: "2608.14836"
-summary: "Explicit formulas connect Neguț operators with the Dyck path algebra and Theta operators. The paper includes a proof of the Theta conjecture, with parts formalized in Lean."
 collection: publications
 permalink: /publications/leaving-the-hall/
 author_profile: true
