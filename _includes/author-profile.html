@@ -181,7 +181,14 @@
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}
       {% if author.letterboxd %}
-        <li><a href="https://letterboxd.com/{{ author.letterboxd }}"><i class="fas fa-fw fa-film" aria-hidden="true"></i> Letterboxd</a></li>
+        <li>
+          <a href="https://letterboxd.com{{ author.letterboxd }}" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.5em; text-decoration: none;">
+            <svg viewBox="0 0 24 24" style="width: 1em; height: 1em; fill: currentColor; vertical-align: middle;" aria-hidden="true">
+              <path d="M7 12a5 5 0 1 1-5-5 5 5 0 0 1 5 5zm5-5a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm10 0a5 5 0 1 0 5 5 5 5 0 0 0-5-5z"/>
+            </svg>
+            Letterboxd
+          </a>
+        </li>
       {% endif %}
     </ul>
   </div>
