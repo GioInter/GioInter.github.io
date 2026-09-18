@@ -27,7 +27,7 @@ author:
   avatar_dark      : "foto_night_old.jpg"
   name             : "Giovanni Interdonato"
   pronouns         : "he/him"  
-  bio              : "PhD student in Mathematics. Algebraic combinatorics."
+  bio              : "PhD student in Mathematics" #. Algebraic combinatorics."
   location         : "Pisa, Italy"
   employer         : "Scuola Normale Superiore"
   uri              : "https://GioInter.github.io"
