@@ -182,14 +182,20 @@
       {% endif %}
       {% if author.letterboxd %}
         <li>
-          <a href="https://letterboxd.com{{ author.letterboxd }}" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.5em; text-decoration: none;">
-            <svg viewBox="0 0 24 24" style="width: 1em; height: 1em; fill: currentColor; vertical-align: middle;" aria-hidden="true">
-              <path d="M7 12a5 5 0 1 1-5-5 5 5 0 0 1 5 5zm5-5a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm10 0a5 5 0 1 0 5 5 5 5 0 0 0-5-5z"/>
-            </svg>
+          <a href="https://letterboxd.com/{{ author.letterboxd }}" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; text-decoration: none;">
+            <span style="display: inline-flex; justify-content: center; width: 1.25em; margin-right: 0.3em;">
+              <picture style="display: flex; align-items: center;">
+                <!-- Se il browser/sistema è in modalità scura, mostra il logo NEGATIVO (punti colorati per sfondo scuro) -->
+                <source srcset="https://a.ltrbxd.com/logos/letterboxd-decal-dots-neg-rgb.svg" media="(prefers-color-scheme: dark)">
+                <!-- Di base (e per la modalità chiara), mostra il logo POSITIVO (punti colorati per sfondo chiaro) -->
+                <img src="https://a.ltrbxd.com/logos/letterboxd-decal-dots-pos-rgb.svg" alt="Letterboxd" style="width: 1em; height: auto;">
+              </picture>
+            </span>
             Letterboxd
           </a>
         </li>
       {% endif %}
+
     </ul>
   </div>
 </div>
