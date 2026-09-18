@@ -180,44 +180,7 @@
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}
-      {% if author.letterboxd %}
-        <li>
-          <a href="https://letterboxd.com/{{ author.letterboxd }}" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; text-decoration: none;">
-            <span style="display: inline-flex; justify-content: center; width: 1.25em; margin-right: 0.3em;">
-              
-              <!-- CSS dedicato allo switch esclusivo basato sul tema del sito -->
-              <style>
-                /* Di base mostra il logo POSITIVO (sfondo chiaro) e nasconde il NEGATIVO */
-                .lb-dark { display: none !important; }
-                .lb-light { display: inline-block !important; }
-      
-                /* Quando il toggle del sito attiva il tema scuro, inverti la visibilità delle immagini */
-                html[data-theme="dark"] .lb-light,
-                html.theme-dark .lb-light,
-                html.dark .lb-light,
-                body.dark .lb-light { 
-                  display: none !important; 
-                }
-      
-                html[data-theme="dark"] .lb-dark,
-                html.theme-dark .lb-dark,
-                html.dark .lb-dark,
-                body.dark .lb-dark { 
-                  display: inline-block !important; 
-                }
-              </style>
-      
-              <!-- Logo originale per SFONDO SCURO (punti colorati su testo/cerchi bianchi) -->
-              <img src="https://ltrbxd.com" alt="Letterboxd" class="lb-dark" style="width: 1em; height: auto;">
-              
-              <!-- Logo originale per SFONDO CHIARO (punti colorati su testo/cerchi neri) -->
-              <img src="https://ltrbxd.com" alt="Letterboxd" class="lb-light" style="width: 1em; height: auto;">
-      
-            </span>
-            Letterboxd
-          </a>
-        </li>
-      {% endif %}
+
 
 
     </ul>
