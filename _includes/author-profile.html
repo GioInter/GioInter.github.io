@@ -132,6 +132,9 @@
       {% if author.instagram %}
         <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram icon-pad-right" aria-hidden="true"></i>Instagram</a></li>
       {% endif %}      
+      {% if author.letterboxd and author.letterboxd != "" %}
+        <li><a href="https://letterboxd.com/{{ author.letterboxd | uri_escape }}/"><span class="author__letterboxd-icon icon-pad-right" aria-hidden="true"><img class="author__letterboxd-icon--light" src="{{ '/images/let_sun.svg' | relative_url }}" alt="" /><img class="author__letterboxd-icon--dark" src="{{ '/images/let_dark.svg' | relative_url }}" alt="" /></span>Letterboxd</a></li>
+      {% endif %}
       {% if author.lastfm %}
         <li><a href="https://last.fm/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a></li>
       {% endif %}      
