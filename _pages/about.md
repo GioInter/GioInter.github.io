@@ -1,6 +1,7 @@
 ---
 permalink: /
 author_profile: true
+description: "Hi! I'm Giovanni, a PhD student in Mathematics at the Scuola Normale Superiore in Pisa. My research focuses on algebraic combinatorics."
 redirect_from:
   - /about/
   - /about.html
