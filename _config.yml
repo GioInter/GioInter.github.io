@@ -30,6 +30,7 @@ author:
   bio              : "PhD student in Mathematics" #. Algebraic combinatorics."
   location         : "Pisa, Italy"
   employer         : "Scuola Normale Superiore"
+  employer_url     : "https://www.sns.it/en"
   uri              : "https://GioInter.github.io"
   email            : "giovanni.interdonato@sns.it" 
 
