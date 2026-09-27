@@ -19,11 +19,11 @@ author_profile: true
 
 <p>{% include coauthors.html coauthors=page.coauthors %}</p>
 
-*Note di Matematica 46 (1), 19–40 · 2026*
+*Note di Matematica 46 (1), 19–40 · July 2026*
 
 ## Abstract
 
-In a paper by Lin an interesting family of semipermutations comes out to index the elements of a cohomology basis of a Hessenberg type variety. The corresponding Betti numbers are a generalization of Eulerian numbers. We show three different subsets of the symmetric group that are in bijection with the set of these semipermutations. These bijections preserve the statistics *lec* and *des*: one of these is obtained by an algebraic-topological argument, the others are explicitly described in combinatorial terms.
+In a paper by Lin an interesting family of semipermutations comes out to index the elements of a cohomology basis of a Hessenberg type variety. The corresponding Betti numbers are a generalization of Eulerian numbers. We show three different subsets of the symmetric group that are in bijection with the set of these semipermutations. These bijections  preserve the statistics \(\lec\) and \(\des\): one of these is first obtained by  an algebraic-topological argument, and all of them are explicitly described in combinatorial terms.
 
 [arXiv:2601.17945](https://arxiv.org/abs/2601.17945) · [PDF](https://arxiv.org/pdf/2601.17945)
 
