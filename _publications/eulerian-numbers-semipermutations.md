@@ -7,7 +7,7 @@ coauthors:
   - name: "Giovanni Gaiffi"
     url: "https://people.dm.unipi.it/gaiffi/"
 details: "Note di Matematica 46 (1), 19–40"
-period: "2026"
+period: "July 2026"
 sort_order: 202607
 arxiv: "2601.17945"
 journal_url: "https://ese-journals.unisalento.it/index.php/notemat/article/view/33074"
