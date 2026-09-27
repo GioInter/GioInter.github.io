@@ -36,17 +36,17 @@ Thesis: *Littlewood–Richardson rule*.
 
 ## Research visits
 
-**11/2024 — Research visit**  
-Università di Bologna, Bologna, Italy.  
-Hosted by [Riccardo Biagioli](https://www.unibo.it/sitoweb/riccardo.biagioli2).
+**02–03/2026 — Research visit**  
+University of Galway, Galway, Ireland.  
+Hosted by [Angela Carnevale](https://angelacarnevale.github.io/).
 
 **09–10/2025 — Research visit**  
 Université du Québec à Montréal, Montréal, Canada.  
 Hosted by [Christophe Hohlweg](https://hohlweg.math.uqam.ca/).
 
-**02–03/2026 — Research visit**  
-University of Galway, Galway, Ireland.  
-Hosted by [Angela Carnevale](https://angelacarnevale.github.io/).
+**11/2024 — Research visit**  
+Università di Bologna, Bologna, Italy.  
+Hosted by [Riccardo Biagioli](https://www.unibo.it/sitoweb/riccardo.biagioli2).
 
 ## Publications and preprints
 
